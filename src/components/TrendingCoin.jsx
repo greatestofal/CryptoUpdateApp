@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const TrendingCoin = ({ coin }) => {
   return (
-    <>
+    <Link to={`/coin/${coin.id}`}>
       <div className="font-light mb-2 p-2 border-gray-200 border-2 rounded hover:bg-red-200 hover:grow">
         {/* <img src={coin.image} alt={coin.name} /> */}
         <div className="flex items-center gap-2">
@@ -14,7 +16,7 @@ const TrendingCoin = ({ coin }) => {
         {/* <p className="price">${coin.current_price}</p>
         <p className="price">${coin.price_change_percentage_24h}</p> */}
       </div>
-    </>
+    </Link>
   );
 };
 
