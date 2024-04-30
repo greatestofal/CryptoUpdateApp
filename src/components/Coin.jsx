@@ -3,7 +3,6 @@ import { TrendingDown, TrendingUp } from "../icons/icon";
 import { currencyFormat } from "../utilities";
 
 const Coin = ({ coin }) => {
-  console.log(coin);
   return (
     <>
       <Link to={`/coin/${coin.id}`}>

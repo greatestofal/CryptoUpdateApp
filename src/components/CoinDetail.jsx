@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-
 // import Skeleton from "./Skeleton";
 import useAxios from "../api/useAxios";
 
@@ -14,6 +13,7 @@ const CoinDetail = () => {
       <div className="wrapper-container mt-8">
         {/* <Skeleton className="h-8 w-32 mb-4" />
         <Skeleton className="h-72 w-full mb-10" /> */}
+        Loading...
       </div>
     );
   }
