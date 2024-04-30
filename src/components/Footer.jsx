@@ -13,6 +13,7 @@ const Footer = () => {
               href="https://github.com/greatestofal"
               className="text-red-500 cursor-pointer hover:underline"
               target="_blank"
+              rel="noreferrer"
             >
               Greatest of All
             </a>
